@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/fragment_newitem_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/new_item_tab_title"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/fragment_newitem_title_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment_newitem_header">
+
+        <EditText
+            android:id="@+id/fragment_newitem_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="@string/fragment_newitem_title_hint"
+            android:padding="10dp"
+            android:singleLine="true" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/fragment_newitem_description_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment_newitem_title_frame">
+
+        <EditText
+            android:id="@+id/fragment_newitem_description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="@string/fragment_newitem_desc_hint"
+            android:padding="10dp"
+            android:singleLine="true" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/fragment_newitem_get_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment_newitem_description_frame"
+        android:layout_marginTop="20dp"
+        android:layout_toLeftOf="@+id/fragment_newitem_place_picker"
+        android:layout_toStartOf="@+id/fragment_newitem_place_picker"
+        android:background="@color/btn_login"
+        android:text="@string/btn_add_photo"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/fragment_newitem_place_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment_newitem_description_frame"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/btn_login"
+        android:text="@string/btn_pick_place"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/fragment_newitem_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment_newitem_description_frame"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/fragment_newitem_place_picker"
+        android:layout_toRightOf="@+id/fragment_newitem_place_picker"
+        android:background="@color/btn_login"
+        android:text="@string/btn_add_item"
+        android:textColor="@color/white" />
+
+
+    <ImageView
+        android:id="@+id/fragment_newitem_image"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/fragment_newitem_add"
+        android:layout_centerInParent="true"
+        android:src="@drawable/logo" />
+
+
+</RelativeLayout>

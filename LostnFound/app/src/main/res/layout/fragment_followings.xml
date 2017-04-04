@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/fragment_followings_follow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/btn_login"
+        android:text="@string/btn_follow"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/fragment_followings_pick_place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/fragment_followings_follow"
+        android:layout_alignTop="@+id/fragment_followings_follow"
+        android:layout_toLeftOf="@+id/fragment_followings_follow"
+        android:layout_toStartOf="@+id/fragment_followings_follow"
+        android:background="@color/bg_login"
+        android:text="@string/btn_follow_pick_place"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/fragment_followings_follow_field"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/fragment_followings_follow"
+        android:layout_alignTop="@+id/fragment_followings_follow"
+        android:layout_toLeftOf="@id/fragment_followings_pick_place"
+        android:layout_toStartOf="@id/fragment_followings_pick_place"
+        android:background="@color/inputfield_bg"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:text="@string/text_follow_new_place"
+        android:textColor="@color/inputfield_text"
+        android:textColorHint="@color/inputfield_hint" />
+
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/fragment_followings_swipe_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_followings_follow">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/fragment_followings_list_view"
+                style="@style/items_and_followings_style"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/fragment_followings_empty"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="No data" />
+        </LinearLayout>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+</RelativeLayout>

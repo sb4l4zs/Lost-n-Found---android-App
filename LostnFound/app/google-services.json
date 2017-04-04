@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "105233808340",
+    "firebase_url": "https://airy-ranger-161312.firebaseio.com",
+    "project_id": "airy-ranger-161312",
+    "storage_bucket": "airy-ranger-161312.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105233808340:android:310cd4546624716e",
+        "android_client_info": {
+          "package_name": "com.iemqra.bme.lostnfound"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105233808340-0qki0qftlo7iuemqtpkd5ebmuiedodei.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtS7MX9MyOqr9aCa0GLgK3iHAz4aeuvj8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

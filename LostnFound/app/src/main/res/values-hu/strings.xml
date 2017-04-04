@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Lost n Found</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Jelszó</string>
+    <string name="hint_confirm_password">Jelszó megerősítés</string>
+    <string name="hint_name">Teljes név</string>
+    <string name="hint_firstname">Keresztnév</string>
+    <string name="hint_lastname">Vezetéknév</string>
+    <string name="btn_login">BEJELENTKEZÉS</string>
+    <string name="btn_register">REGISZTRÁCIÓ</string>
+    <string name="btn_link_to_register">Új látogató? Lépj be most.</string>
+    <string name="btn_link_to_login">Vissza a bejelentkezéshez.</string>
+    <string name="welcome">Üdvözöljük</string>
+    <string name="btn_logout">KIJELENTKEZÉS</string>
+    <string name="name">Teljes név</string>
+    <string name="menu_logout">Kijelentkezés</string>
+    <string name="menu_language">Nyelv</string>
+    <string name="menu_sync">Szinkronizálás</string>
+    <string name="language_selector">Válassz nyelvet!</string>
+    <string name="tab_search">Keresés</string>
+    <string name="tab_items">Tárgyak</string>
+    <string name="tab_new_item">Találtam valamit</string>
+    <string name="tab_followings">Követések</string>
+    <string name="lang_en">English</string>
+    <string name="lang_hu">Magyar</string>
+    <string name="photo_picker_camera">Fotó készítés</string>
+    <string name="photo_picker_galery">Fotó választás</string>
+    <string name="photo_picker_file">Kép választás</string>
+    <string name="photo_picker_title">Fotó hozzáadás!</string>
+    <string name="btn_add_photo">Fotó</string>
+    <string name="btn_pick_place">Követés</string>
+    <string name="btn_follow_pick_place">Hely választás</string>
+    <string name="btn_add_item">Hozzáadás</string>
+    <string name="btn_follow">Követés</string>
+    <string name="text_follow_new_place">Új hely követése</string>
+    <string name="wellcome_msg">"Üdvözlünk "</string>
+    <string name="search_field_hint">Search</string>
+    <string name="Search">Search</string>
+    <string name="pick_place_and_photo">Pick Google Place and Select Photo!</string>
+    <string name="type_title_and_description">Type item title and description!</string>
+    <string name="new_item_tab_title">New item found</string>
+    <string-array name="search_filter_array">
+        <item>Cím</item>
+        <item>Leírás</item>
+        <item>Hely</item>
+        <item>Felhasználó</item>
+        <item>Dátum</item>
+    </string-array>
+    <string name="sharing_1">Valaki találta ezt a(z) </string>
+    <string name="sharing_2"> itt: </string>
+    <string name="sharing_3">! Nézd meg, lehet, hogy a tiéd! :)</string>
+    <string name="contact_1">Kérdés a következővel kapcsolatban: </string>
+    <string name="contact_2">Kedves </string>
+    <string name="btn_remove_following">törlés</string>
+    <string name="activity_detailed_description">Leírás:</string>
+    <string name="activity_detailed_location">Helyszín:</string>
+    <string name="activity_detailed_founder">Megtaláló:</string>
+    <string name="lost_n_found">Lost n Found</string>
+    <string name="fragment_newitem_title_hint">title</string>
+    <string name="fragment_newitem_desc_hint">description</string>
+</resources>
