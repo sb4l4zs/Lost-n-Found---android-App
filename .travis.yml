@@ -37,7 +37,11 @@ before_script:
 
 script: ./gradlew :app:build
 
+before_install:
+    - pip install --user codecov
 
+after_success:
+    - codecov
 
 notifications:
   email:
