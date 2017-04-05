@@ -46,16 +46,41 @@
         <item>Felhasználó</item>
         <item>Dátum</item>
     </string-array>
+    <string name="title_activity_detailed">DetailedActivity</string>
+    <string name="title_activity_main">Push Notifications</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_settings">Settings</string>
     <string name="sharing_1">Valaki találta ezt a(z) </string>
     <string name="sharing_2"> itt: </string>
     <string name="sharing_3">! Nézd meg, lehet, hogy a tiéd! :)</string>
     <string name="contact_1">Kérdés a következővel kapcsolatban: </string>
     <string name="contact_2">Kedves </string>
+
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered">Device is already registered on server.</string>
+    <string name="gcm_registered">From GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="gcm_message">From GCM: you got message!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="server_registered">From Demo Server: successfully added device!</string>
+    <string name="server_unregistered">From Demo Server: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+
+    <string name="options_register">Register</string>
+    <string name="options_unregister">Unregister</string>
+    <string name="options_clear">Clear</string>
+    <string name="options_exit">Exit</string>
+
+
     <string name="btn_remove_following">törlés</string>
     <string name="activity_detailed_description">Leírás:</string>
     <string name="activity_detailed_location">Helyszín:</string>
     <string name="activity_detailed_founder">Megtaláló:</string>
-    <string name="lost_n_found">Lost n Found</string>
     <string name="fragment_newitem_title_hint">title</string>
     <string name="fragment_newitem_desc_hint">description</string>
 </resources>
