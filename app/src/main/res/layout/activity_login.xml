@@ -55,9 +55,9 @@
         android:layout_below="@id/activity_login_password"
         android:layout_centerInParent="true"
         android:layout_marginTop="15dp"
-        android:background="@drawable/btn_login_texture"
+        android:backgroundTint="@color/bg_main"
         android:text="@string/btn_login"
-        android:textColor="@color/btn_login" />
+        android:textColor="@color/white" />
 
     <com.facebook.login.widget.LoginButton
         android:id="@+id/activity_login_btnFbLogin"
