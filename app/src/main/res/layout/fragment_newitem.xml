@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/white"
     android:orientation="vertical">
 
@@ -54,7 +55,7 @@
     </android.support.design.widget.TextInputLayout>
 
 
-    <Button
+    <android.support.v7.widget.AppCompatButton
         android:id="@+id/fragment_newitem_get_photo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -62,11 +63,11 @@
         android:layout_marginTop="20dp"
         android:layout_toLeftOf="@+id/fragment_newitem_place_picker"
         android:layout_toStartOf="@+id/fragment_newitem_place_picker"
-        android:background="@color/btn_login"
+        app:backgroundTint="@color/btn_login"
         android:text="@string/btn_add_photo"
         android:textColor="@color/white" />
 
-    <Button
+    <android.support.v7.widget.AppCompatButton
         android:id="@+id/fragment_newitem_place_picker"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -75,11 +76,11 @@
         android:layout_marginLeft="1dp"
         android:layout_marginRight="1dp"
         android:layout_marginTop="20dp"
-        android:background="@color/btn_login"
+        app:backgroundTint="@color/btn_login"
         android:text="@string/btn_pick_place"
         android:textColor="@color/white" />
 
-    <Button
+    <android.support.v7.widget.AppCompatButton
         android:id="@+id/fragment_newitem_add"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -87,7 +88,7 @@
         android:layout_marginTop="20dp"
         android:layout_toEndOf="@+id/fragment_newitem_place_picker"
         android:layout_toRightOf="@+id/fragment_newitem_place_picker"
-        android:background="@color/btn_login"
+        app:backgroundTint="@color/btn_login"
         android:text="@string/btn_add_item"
         android:textColor="@color/white" />
 

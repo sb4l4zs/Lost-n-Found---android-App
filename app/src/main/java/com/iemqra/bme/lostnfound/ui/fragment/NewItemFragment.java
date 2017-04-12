@@ -131,6 +131,8 @@ public class NewItemFragment extends Fragment {
 
     @OnClick(R.id.fragment_newitem_add)
     public void handleAddButtonClick() {
+        pDialog.setMessage("Please wait ...");
+        showDialog(true);
         String title = titleText.getText().toString().trim();
         String description = descriptionText.getText().toString().trim();
         String user_uid = DataManager.INSTANCE.getUser().get("uid");
@@ -220,6 +222,7 @@ public class NewItemFragment extends Fragment {
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onEventMainThread(final BaseEvent event) {
+        showDialog(false);
         if (event.getThrowable() != null) {
             event.getThrowable().printStackTrace();
             Toast.makeText(getApplicationContext(), event.getMessage(), Toast.LENGTH_SHORT).show();

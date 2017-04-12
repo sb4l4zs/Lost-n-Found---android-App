@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/bg"
     android:gravity="center"
     android:orientation="vertical"
@@ -107,13 +108,13 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
 
-            <Button
+            <android.support.v7.widget.AppCompatButton
                 android:id="@+id/activity_register_btnRegister"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:layout_marginTop="20dip"
-                android:backgroundTint="@color/btn_login"
+                app:backgroundTint="@color/btn_login"
                 android:text="@string/btn_register"
                 android:textColor="@color/white" />
         </RelativeLayout>

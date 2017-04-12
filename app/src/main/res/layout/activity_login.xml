@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/bg"
     android:orientation="vertical"
     android:padding="15dp">
@@ -48,14 +49,14 @@
         android:textColorHint="@color/inputfield_hint" />
 
 
-    <Button
+    <android.support.v7.widget.AppCompatButton
         android:id="@+id/activity_login_btnLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/activity_login_password"
         android:layout_centerInParent="true"
         android:layout_marginTop="15dp"
-        android:backgroundTint="@color/bg_main"
+        app:backgroundTint="@color/bg_main"
         android:text="@string/btn_login"
         android:textColor="@color/white" />
 
